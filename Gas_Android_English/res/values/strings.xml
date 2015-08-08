@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="ble_not_supported">BLE nicht unterstützt.</string>
+    <string name="label_data">Temperature:</string>
+    <string name="label_device_address">Device Adress:</string>
+    <string name="label_state">Status:</string>
+    <string name="no_data">No Data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Search</string>
+    <string name="error_bluetooth_not_supported">Bluetooth nicht unterstützt.</string>
+    <string name="unknown_device">Unbekanntes Gerät</string>
+    <string name="untere_triggerschwelle_setzten">Untere Triggerschwelle setzten</string>
+    <string name="kritische_gaskonzentartion_">Critical Gas Concentration (</string>
+    
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="bettery_">Batterie:</string>
+    <string name="triggerschwelle_slider">Change threshold level</string>
+    <string name="settings_menu">Settings</string>
+
+</resources>

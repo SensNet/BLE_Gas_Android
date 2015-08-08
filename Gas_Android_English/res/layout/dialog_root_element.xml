@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/your_dialog_root_element"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+            android:orientation="vertical" >>
+<Space
+            android:layout_width="5dp"
+            android:layout_height="10dp" />
+    <TextView
+        android:id="@+id/textViewUpper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<Space
+            android:layout_width="5dp"
+            android:layout_height="10dp" />
+<SeekBar
+    android:id="@+id/upper_seekbar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+</SeekBar>
+<Space
+            android:layout_width="5dp"
+            android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/textViewLower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+<Space
+            android:layout_width="5dp"
+            android:layout_height="10dp" />
+<SeekBar
+    android:id="@+id/lower_seekbar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+</SeekBar>
+<Space
+            android:layout_width="5dp"
+            android:layout_height="20dp" />
+
+</LinearLayout>
